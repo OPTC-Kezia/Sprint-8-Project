@@ -88,6 +88,6 @@ describe('Create an order', () => {
         await page.writeDriverMessage(message)
         const order = await $('.smart-button-main=Order')
         await order.click()
-        await browser.pause(5000)
+        await browser.pause(8000)
     })
 })
